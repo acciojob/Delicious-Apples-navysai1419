@@ -125,3 +125,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
+.add-to-cart-button{
+	background-color:orangered;
+	color:white;
+	font-weight:200px;
+	font-size:12px
+}
