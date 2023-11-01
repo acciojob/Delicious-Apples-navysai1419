@@ -14,7 +14,7 @@ body {
     border: 1px solid #ddd;
 }
 
-/* Style the product photo container */
+
 .product__photo {
     flex: 1;
 }
@@ -29,11 +29,16 @@ body {
 .controls i {
     margin-right: 10px;
     font-size: 20px;
+	color:lightgray
 }
+.photo-container{
+	
 
+}
 /* Style the main product image */
 .photo-main img {
     width: 100%;
+	background-color:greenyellow;
 }
 
 /* Style the photo album */
