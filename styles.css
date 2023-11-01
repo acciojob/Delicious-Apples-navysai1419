@@ -1,1 +1,122 @@
 /* your code here */
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the product section */
+.product {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Style the product photo container */
+.product__photo {
+    flex: 1;
+}
+
+/* Style the photo controls */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.controls i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Style the main product image */
+.photo-main img {
+    width: 100%;
+}
+
+/* Style the photo album */
+.photo-album ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-album ul li {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.photo-album ul li:last-child {
+    margin-right: 0;
+}
+
+/* Style the product info container */
+.product__info {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+
+/* Style the product title */
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.title span {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Style the price */
+.price {
+    font-size: 24px;
+    color: #f00;
+}
+
+.price span {
+    font-size: 28px;
+}
+
+/* Style the color variants */
+.variant h3 {
+    font-size: 18px;
+}
+
+.variant ul {
+    list-style: none;
+    padding: 0;
+}
+
+.variant ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.variant ul li:last-child {
+    margin-right: 0;
+}
+
+.variant ul li img {
+    width: 30px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.variant ul li img:hover {
+    border-color: #f00;
+}
+
+/* Style the description */
+.description h3 {
+    font-size: 18px;
+}
+
+.description p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
